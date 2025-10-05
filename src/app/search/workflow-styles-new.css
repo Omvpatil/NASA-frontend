@@ -1,0 +1,298 @@
+/* Workflow Node Styles - Monochrome NASA Theme */
+
+/* Paper Nodes - Column 1 (Research Papers) */
+.paper-node {
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%) !important;
+    border: 2px solid #333333 !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+    min-width: 220px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.2s ease !important;
+}
+
+.paper-node:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+    border-color: #000000 !important;
+}
+
+.paper-node.dark {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%) !important;
+    border-color: #666666 !important;
+    color: #ffffff !important;
+}
+
+.paper-node.dark:hover {
+    border-color: #ffffff !important;
+}
+
+/* Author Nodes - Column 2 */
+.author-node {
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%) !important;
+    border: 2px solid #555555 !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    min-width: 180px !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    transition: all 0.2s ease !important;
+}
+
+.author-node:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-color: #000000 !important;
+}
+
+.author-node.dark {
+    background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%) !important;
+    border-color: #777777 !important;
+    color: #e0e0e0 !important;
+}
+
+.author-node.dark:hover {
+    border-color: #cccccc !important;
+}
+
+/* Topic Nodes - Column 3 */
+.topic-node {
+    background: linear-gradient(135deg, #e8e8e8 0%, #d8d8d8 100%) !important;
+    border: 2px solid #444444 !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    min-width: 200px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    transition: all 0.2s ease !important;
+}
+
+.topic-node:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-color: #000000 !important;
+}
+
+.topic-node.dark {
+    background: linear-gradient(135deg, #252525 0%, #353535 100%) !important;
+    border-color: #888888 !important;
+    color: #f0f0f0 !important;
+}
+
+.topic-node.dark:hover {
+    border-color: #dddddd !important;
+}
+
+/* Method Nodes - Column 4 */
+.method-node {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e5e5e5 100%) !important;
+    border: 2px solid #666666 !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    min-width: 190px !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    transition: all 0.2s ease !important;
+}
+
+.method-node:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    border-color: #000000 !important;
+}
+
+.method-node.dark {
+    background: linear-gradient(135deg, #2d2d2d 0%, #3d3d3d 100%) !important;
+    border-color: #999999 !important;
+    color: #e8e8e8 !important;
+}
+
+.method-node.dark:hover {
+    border-color: #eeeeee !important;
+}
+
+/* Results Nodes - Column 5 */
+.results-node {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%) !important;
+    border: 2px solid #333333 !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+    min-width: 220px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12) !important;
+    transition: all 0.2s ease !important;
+}
+
+.results-node:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2) !important;
+    border-color: #000000 !important;
+}
+
+.results-node.dark {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%) !important;
+    border-color: #666666 !important;
+    color: #ffffff !important;
+}
+
+.results-node.dark:hover {
+    border-color: #ffffff !important;
+}
+
+/* Citation Nodes - Special intermediate nodes */
+.citation-node {
+    background: linear-gradient(135deg, #d0d0d0 0%, #c0c0c0 100%) !important;
+    border: 2px dashed #555555 !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    min-width: 160px !important;
+    font-weight: 400 !important;
+    font-size: 0.9em !important;
+    color: #2a2a2a !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) !important;
+    transition: all 0.2s ease !important;
+}
+
+.citation-node:hover {
+    transform: scale(1.02) !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12) !important;
+    border-color: #333333 !important;
+}
+
+.citation-node.dark {
+    background: linear-gradient(135deg, #3a3a3a 0%, #4a4a4a 100%) !important;
+    border-color: #888888 !important;
+    color: #d0d0d0 !important;
+}
+
+.citation-node.dark:hover {
+    border-color: #bbbbbb !important;
+}
+
+/* Default Node Fallback */
+.default-node {
+    background: #ffffff !important;
+    border: 2px solid #999999 !important;
+    border-radius: 6px !important;
+    padding: 10px 14px !important;
+    color: #000000 !important;
+}
+
+.default-node.dark {
+    background: #333333 !important;
+    color: #ffffff !important;
+    border-color: #666666 !important;
+}
+
+/* Edge Styles */
+.author-edge path {
+    stroke: #555555 !important;
+    stroke-width: 2 !important;
+}
+
+.author-edge.dark path {
+    stroke: #999999 !important;
+}
+
+.topic-edge path {
+    stroke: #444444 !important;
+    stroke-width: 2 !important;
+}
+
+.topic-edge.dark path {
+    stroke: #aaaaaa !important;
+}
+
+.method-edge path {
+    stroke: #666666 !important;
+    stroke-width: 2 !important;
+}
+
+.method-edge.dark path {
+    stroke: #bbbbbb !important;
+}
+
+.results-edge path {
+    stroke: #333333 !important;
+    stroke-width: 2.5 !important;
+    stroke-dasharray: 5, 5 !important;
+}
+
+.results-edge.dark path {
+    stroke: #cccccc !important;
+}
+
+.citation-edge path {
+    stroke: #888888 !important;
+    stroke-width: 1.5 !important;
+    stroke-dasharray: 3, 3 !important;
+}
+
+.citation-edge.dark path {
+    stroke: #777777 !important;
+}
+
+.default-edge path {
+    stroke: #999999 !important;
+    stroke-width: 1.5 !important;
+}
+
+.default-edge.dark path {
+    stroke: #666666 !important;
+}
+
+/* ReactFlow Controls */
+.react-flow__controls {
+    border: 1px solid #e5e7eb !important;
+    background: white !important;
+}
+
+.dark .react-flow__controls {
+    border-color: #374151 !important;
+    background: #1f2937 !important;
+}
+
+.react-flow__controls-button {
+    background: white !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.dark .react-flow__controls-button {
+    background: #1f2937 !important;
+    border-bottom-color: #374151 !important;
+    color: white !important;
+}
+
+.react-flow__controls-button svg {
+    fill: #374151 !important;
+}
+
+.dark .react-flow__controls-button svg {
+    fill: white !important;
+}
+
+/* MiniMap */
+.react-flow__minimap {
+    background: #f9fafb !important;
+    border: 2px solid #e5e7eb !important;
+}
+
+.dark .react-flow__minimap {
+    background: #111827 !important;
+    border-color: #374151 !important;
+}
+
+/* Background */
+.react-flow__background {
+    background: white !important;
+}
+
+.dark .react-flow__background {
+    background: #0f172a !important;
+}
