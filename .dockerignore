@@ -1,0 +1,24 @@
+# .dockerignore for Frontend
+node_modules
+.next
+.git
+.gitignore
+.vscode
+.idea
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*.local
+.DS_Store
+*.pem
+coverage
+.turbo
+dist
+build
+README.md
+docs/
+*.md
+.eslintcache
+.prettierrc
+tsconfig.tsbuildinfo
